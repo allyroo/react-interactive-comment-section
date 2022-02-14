@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+:root {
+  --red:hsl(358, 79%, 66%);
+  --violet:hsl(238, 40%, 52%);
+  --lavender: hsl(239, 57%, 85%);
+  --pink: hsl(357, 100%, 86%);
+
+  --navy-blue: hsl(212, 24%, 26%);
+  --gray:hsl(211, 10%, 45%);
+  --light-gray:hsl(223, 19%, 93%);
+  --very-light-gray:hsl(228, 33%, 97%);
+  --white:hsl(0, 0%, 100%);
+}
+
+
+h1 {
+  color: red;
+}
+
+.wrapper {
+  display:flex;
+  justify-content: center;
+}
+
+.commentBox {
+  max-width: 23rem;
+  background-color: var(--white);
+}
+
+.commentContent {
+  max-width:22rem;
+  padding:1rem;
+}
+
+.comment{
+  
+}
